@@ -1,0 +1,40 @@
+{
+  "background_color": "white",
+  "theme_color": "white",
+  "description": "Field Manager v2 Application.",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "name": "Field Manager v2",
+  "short_name": "lfm",
+  "categories": ["government", "shopping"],
+  "orientation": "landscape-primary",
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.active.awo.mobile.ra"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://itunes.apple.com/us/app/ra-camping/id503915200"
+    }
+  ],
+  "lang": "en-US",
+  "dir": "auto",
+  "start_url": "."
+}

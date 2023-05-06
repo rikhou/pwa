@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite --open",
+    "start": "yarn build && yarn serve",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "serve": "serve dist"
   },
   "dependencies": {
+    "https-localhost": "^4.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "vite-plugin-pwa": "^0.14.7",
